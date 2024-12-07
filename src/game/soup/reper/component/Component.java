@@ -1,3 +1,7 @@
 package game.soup.reper.component;
 
-public class Component{}
+public abstract class Component {
+
+	// FUNCTION
+	public abstract void update();
+}
